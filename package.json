@@ -1,0 +1,40 @@
+{
+  "name": "discord-core",
+  "version": "1.0.0",
+  "description": "Example of Discord API implementation in TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zziger/discord-core"
+  },
+  "private": true,
+  "main": "build/index.js",
+  "dependencies": {
+    "@types/node": "^11.9.4",
+    "@types/request": "^2.48.1",
+    "@types/ws": "^6.0.1",
+    "chalk": "^2.4.2",
+    "form-data": "^3.0.0",
+    "request": "^2.88.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3333",
+    "ws": "^6.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "scripts": {
+    "build": "mkdir build && tsc",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    {
+      "name": "Artem Dzhemesiuk",
+      "email": "zziger07@gmail.com",
+      "url": "https://github.com/zziger"
+    }
+  ],
+  "license": "MIT"
+}
